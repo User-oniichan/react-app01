@@ -2,6 +2,10 @@ import React from 'react'
 
 export const C01componente = () => {
   return (
-    <div>Primer componente definido...</div>
+    <div>
+      <h1>Primer Componente</h1>
+      Primer componente definido...
+    </div>
+    
   )
 }
