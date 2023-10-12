@@ -10,7 +10,7 @@ import C06matriz from './components/C06matriz1';
 function App() {
   return (
     <div>
-      <h1>Primer componente</h1>
+      <h1></h1>
       <C01componente/> 
       <hr/>
       <h1>Segundo componente</h1> 
