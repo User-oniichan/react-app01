@@ -6,7 +6,7 @@ export const C01componente = () => {
       <h1>Primer Componente</h1>
       Primer componente definido...
       <br></br>
-      Hola Mundo desde React...
+      Hola Mundo desde React...<i class="large material-icons">insert_chart</i>
 
     </div>
     
