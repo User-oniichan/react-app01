@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-//import './App.css';
-import { C01componente } from './components/C01componente';
-import Contador1 from './components/C02componente';
-import Contador2 from './components/C03componente';
-import Contador3 from './components/C04componente';
-import C05operador from './components/C05operadorTemario';
-import C06matriz from './components/C06matriz1';
-import { AppForm } from './components/AppForm';
+import React from 'react'
+import { BrowserRouter as Router } from 'react-router-dom'
+import { useAuth} from "./ruteo/AuthContext";
+import BarraRutasProtected from './ruteo/BarraRutasProtected';
+import BarraRutasPublic from './ruteo/BarraRutasPublic';
 
-function App() {
+
+const App = () => {
+  const { user } = useAuth();
   return (
-    <div style={{display:"grid", placeItems:"center", width:"", background:"white", padding:"20px"}}>
-      
-      <AppForm />
-      <p>Nº 1 Juan Manuel            x    A</p>
-      <p>Nº 2 Maria Valencia            x    A</p>
+    <div style={{ background:"violet"}}>
+      <Router>
+      { user ? <BarraRutasProtected /> : <BarraRutasPublic />}
+      </Router>
     </div>
-  );
+  )
 }
 
-
-
-export default App;
+export default App
