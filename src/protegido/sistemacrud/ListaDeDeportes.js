@@ -3,10 +3,11 @@ import React from 'react'
 const ListaDeDeportes = () => {
   return (
     <div>
-      <h1>Lista de deportes</h1>
+      <h1>ListaDeDeportes</h1>
+      Lisat de Deportes...
       <p>Futbol</p>
-      <p>Basket</p>
       <p>Voley</p>
+
     </div>
   )
 }

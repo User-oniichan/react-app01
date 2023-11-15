@@ -3,11 +3,14 @@ import React from 'react'
 const Pdf = () => {
   return (
     <div>
-      <h1>Documentos PDF*</h1>
-      <p>Documento PDF_1</p>
-      <p>Documento PDF_2</p>
-      <p>Documento PDF_3</p>
-      </div>
+      <h1>Pdf</h1>
+      Pagina de Pdf
+      <p>PDf nro 01</p>
+      <p>PDf nro 02</p>
+      <p>PDf nro 03</p>
+      <p>PDf nro 04</p>
+      <p>PDf nro 05</p>
+    </div>
   )
 }
 

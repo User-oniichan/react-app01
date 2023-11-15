@@ -4,9 +4,9 @@ const Contacto = () => {
   return (
     <div id="public">
       <h1>Contacto</h1>
-      Página de contacto
+       Página de contacto
     </div>
   )
 }
 
-export default Contacto;
+export default Contacto
